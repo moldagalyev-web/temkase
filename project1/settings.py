@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-nph59am^xep)(172zdkm#0=%aajv+#_%b2y4%!20z(i*6%f$83
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['temkase.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
