@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documenasdasdt</title>
+</head>
+<body>
+    {% for el in news %}
+        <h3>
+            {{el.title}}
+        </h3>
+        <p>{{el.text}}</p>
+    {% endfor %}
+</body>
+</html>
